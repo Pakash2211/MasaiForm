@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar>a:hover {
+    color: rgb(11, 86, 90);
+}
+
+table {
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+
+thead {
+    background-color: teal;
+    color: white;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 5px;
+    margin-right: auto;
+}
+
+hr {
+    background-color: teal;
+    height: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+#filter {
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 20px;
+}
+
+hr+h1 {
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+}
+
+#form input,
+select {
+    margin-bottom: 8px;
+}
